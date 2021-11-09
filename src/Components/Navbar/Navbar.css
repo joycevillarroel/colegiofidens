@@ -1,0 +1,45 @@
+.navbar {
+  width: 100vw;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.logo {
+  padding-left: 4vw;
+  background-color: var(--primary-colour);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 9vh;
+  width: 100vw;
+}
+
+.logo img {
+  height: 12vh;
+  margin-top: 9vh;
+  border-radius: 2rem;
+}
+
+.logo h1 {
+  color: var(--secondary-colour);
+  margin-left: 2vw;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 400px) {
+  .logo h1 {
+      font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .logo h1 {
+      font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .logo h1 {
+      font-size: 2.5rem;
+  }
+}
