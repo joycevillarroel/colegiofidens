@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import fidensLogo from '../../images/logo_fidens.jpeg'
+import fidensLogo from '../../images/fidens-circle-logo.png'
 
 const Navbar = () => {
 
