@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 24px;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  * {
+    --neutral-colour: #fff;
+    --primary-colour: rgb(61, 61, 61);
+    --secondary-colour: rgb(199, 199, 199);
+    --tertiary-colour: #848484;
+    --quarter-colour: #322683;
+    --cornerstone-colour: #BE1624;
+    --neutral-color-dark: #030B1A;
+  }
